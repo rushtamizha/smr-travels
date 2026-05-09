@@ -35,17 +35,17 @@ export default function Navbar() {
           <div className="flex items-center justify-between py-3">
             
             {/* LOGO SECTION */}
-            <div className="text-xl inline-flex gap-2 items-center font-bold tracking-tight cursor-pointer">
+            <div className="text-xl inline-flex  items-center font-bold tracking-tight cursor-pointer">
               <div className="relative w-10 h-10 border rounded-full ">
                 <img className="rounded-full object-cover"
                   src="/logo.jpg"
                   alt="RR Tours Logo" />
               </div>
-              <span className="text-transparent bg-clip-text bg-gradient-to-b from-[#ffe100] to-[#ffb700] logo px-1">
+              <span className="text-transparent bg-clip-text bg-gradient-to-b from-[#ffe100] to-[#ffb700] logo px-2 mt-1">
                 SMR
               </span>
-              <span className=" text-white logo">
-                TRAVELS
+              <span className="mt-1 text-white logo">
+              TRAVELS
               </span>
             </div>
 

@@ -69,7 +69,7 @@ const EnterpriseHero = () => {
               {companyConfig.name.split(' ')[0]}
             </span>
             <br/>
-            <span className="text-white">
+            <span className="text-white logo">
               {companyConfig.name.split(' ').slice(1).join(' ')}
             </span>
           </h1>
