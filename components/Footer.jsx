@@ -13,6 +13,7 @@ import {
   FaArrowUpRightFromSquare,
   FaPhone
 } from "react-icons/fa6"; 
+import { Verified } from "lucide-react";
 FaPhone
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -43,22 +44,30 @@ const Footer = () => {
                 SMR <span className="text-transparent bg-clip-text bg-gradient-to-b from-[#FFE7A3] to-[#D4AF37]">TRAVELS</span>
               </h2>
               <p className="mt-4 text-gray-100 text-xs leading-relaxed max-w-xs">
-                Exquisite travel experiences and premium fleet services across the Western Ghats. Your journey, our prestige.
+                No.8 North Car Street <br/>
+                thiruvanaiKovil Trichy
               </p>
             </div>
 
             <div className="space-y-4">
               <div className="flex items-center gap-4 group">
                 <div className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center group-hover:border-yellow-500/50 transition-colors">
+                  <Verified size={14} className="text-yellow-500" />
+                </div>
+                <span className="text-sm text-gray-300 font-bold">GST : 33BWEPR1141J1ZO</span>
+              </div>
+              <div className="flex items-center gap-4 group">
+                <div className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center group-hover:border-yellow-500/50 transition-colors">
                   <FaPhone size={14} className="text-yellow-500" />
                 </div>
-                <span className="text-sm text-gray-300 font-bold">+91 98765 43210</span>
+                <span className="text-sm text-gray-300 font-bold">+91 9080576365</span>
+                <span className="text-sm text-gray-300 font-bold">+91 9688168638</span>
               </div>
               <div className="flex items-center gap-4 group">
                 <div className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center group-hover:border-yellow-500/50 transition-colors">
                   <FaEnvelope size={14} className="text-yellow-500" />
                 </div>
-                <span className="text-sm text-gray-300 font-bold">bookings.com</span>
+                <span className="text-sm text-gray-300 font-bold">smrtravels2@gmail.com</span>
               </div>
             </div>
 
@@ -108,11 +117,11 @@ const Footer = () => {
             </h4>
             <div className="relative w-full h-48 rounded-[2rem] overflow-hidden border border-white/5 group">
               {/* Dark Overlay for Map */}
-              <div className="absolute inset-0 bg-yellow-500/10 pointer-events-none group-hover:bg-transparent transition-colors z-10" />
+              <div className="absolute inset-0  pointer-events-none group-hover:bg-transparent transition-colors z-10" />
               <iframe
                 title="Office Location"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15701.328328148384!2d76.9535!3d10.3275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba836b30f2f0c7d%3A0x67396a564756!2sValparai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1715000000000!5m2!1sen!2sin"
-                className="w-full h-full grayscale invert-[0.9] contrast-[1.2]"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.4407626717502!2d78.70401861132044!3d10.854042157711271!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baaf42c2e41c059%3A0x5346df832bbe5441!2sN%20Car%20St%2C%20Srirangam%2C%20Thiruvanaikoil%2C%20Tiruchirappalli%2C%20Tamil%20Nadu%20620005!5e0!3m2!1sen!2sin!4v1778307193383!5m2!1sen!2sin"
+                className="w-full h-full -[0.9] "
                 style={{ border: 0 }}
                 allowFullScreen=""
                 loading="lazy"
@@ -125,7 +134,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="py-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="text-gray-600 text-[10px] font-bold uppercase tracking-widest">
-            © {currentYear} Valparai Holiday Tours. All Rights Reserved.
+            © {currentYear} SMR TRAVELS. All Rights Reserved.
           </p>
           <div className="flex items-center gap-6">
             <span className="text-gray-600 text-[10px] font-bold uppercase tracking-widest flex items-center gap-2">

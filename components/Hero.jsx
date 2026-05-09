@@ -99,7 +99,7 @@ const EnterpriseHero = () => {
       <div className="absolute z-20 flex items-end justify-between bottom-10 left-10 right-10">
         <div className="hidden lg:block border-l border-yellow-500/30 pl-4">
             <p className="text-white/40 text-[9px] font-bold uppercase tracking-[0.4em] mb-1">HQ Location</p>
-            <p className="text-white text-[11px] font-bold uppercase tracking-widest">Kerala • India</p>
+            <p className="text-white text-[11px] font-bold uppercase tracking-widest">Tiruchirapalli • India</p>
         </div>
 
 
