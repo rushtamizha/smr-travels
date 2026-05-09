@@ -49,7 +49,7 @@ const PackagesPage = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {tourPackages.map((tour) => (
             <motion.div key={tour.id} 
-                className="group relative bg-amber-400/5 rounded-[2.5rem] overflow-hidden border border-white/5 hover:border-yellow-500/30 transition-all duration-500 h-full flex flex-col"
+                className="group relative bg-amber-400/5 rounded-[2.5rem] overflow-hidden border border-white/5 hover:border-yellow-500/30 transition-all duration-500 h-full flex flex-col border-yellow-300/50"
               >
                 <div className="relative overflow-hidden h-52 cursor-pointer" onClick={() => openForm(tour.title)}>
                   <img src={tour.image} alt={tour.title} className="object-cover w-full h-full transition-transform duration-1000 group-hover:scale-110" />

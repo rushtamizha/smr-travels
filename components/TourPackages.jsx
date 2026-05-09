@@ -80,7 +80,7 @@ const TourPackages = () => {
         >
           {tourPackages.map((tour) => (
             <SwiperSlide key={tour.id}>
-              <motion.div className="group relative bg-amber-400/5 rounded-[2.5rem] overflow-hidden border border-white/5 hover:border-yellow-500/30 transition-all duration-500 h-full flex flex-col">
+              <motion.div className="group relative bg-amber-400/5 rounded-[2.5rem] overflow-hidden border border-white/5 hover:border-yellow-500/30 transition-all duration-500 h-full flex flex-col border-yellow-300/50">
                 <div
                   className="relative overflow-hidden h-52 cursor-pointer"
                   onClick={() => openForm(tour.title)}

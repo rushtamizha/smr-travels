@@ -49,7 +49,7 @@ const FleetSection = () => {
             <motion.div 
               key={car.id}
               whileHover={{ y: -10 }}
-              className="group relative bg-amber-400/5 border border-white/5 rounded-[2rem] overflow-hidden transition-all duration-500 hover:border-yellow-500/30"
+              className="group relative bg-amber-400/5 border  rounded-[2rem] overflow-hidden transition-all duration-500 border-yellow-300/50 hover:border-yellow-500/30"
             >
               {/* Image Area */}
               <div className="relative h-48 overflow-hidden">
