@@ -2,6 +2,8 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import GoldSparkleBackground from "@/components/GoldSpark";
+import ContactButton from "@/components/ContactBtn";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -30,6 +32,8 @@ export default function RootLayout({ children }) {
         <main className="flex-grow">
           {children}
           <Footer/>
+          <GoldSparkleBackground/>
+          <ContactButton/>
         </main>
         {/* You can add a Footer here later */}
       </body>
