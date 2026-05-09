@@ -24,6 +24,7 @@ const Footer = () => {
       { name: "Tour Packages", href: "/packages" },
       { name: "Airport Transfers", href: "/cabs" },
       { name: "Corporate Booking", href: "/cabs" },
+      { name: "Car Rentals", href: "/cabs" },
     ],
     support: [
       { name: "Contact Us", href: "/contact" },
