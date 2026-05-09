@@ -4,14 +4,14 @@ import { Car, Send, X, Users, Fuel, Gauge } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const fleetData = [
-  { id: 1, name: "Luxury Sedan", price: 13, image: "https://images.unsplash.com/photo-1550355291-bbee04a92027?auto=format&fit=crop&q=80&w=800", capacity: "4+1" },
-  { id: 2, name: "Innova", price: 18, image: "https://images.unsplash.com/photo-1605806616949-1e87b487fc2f?auto=format&fit=crop&q=80&w=800", capacity: "6+1" },
-  { id: 3, name: "Innova Crysta", price: 20, image: "https://images.unsplash.com/photo-1621348160394-211805937224?auto=format&fit=crop&q=80&w=800", capacity: "7+1" },
-  { id: 4, name: "Ertiga", price: 17, image: "https://images.unsplash.com/photo-1590362891991-f776e747a588?auto=format&fit=crop&q=80&w=800", capacity: "6+1" },
-  { id: 5, name: "Tempo Traveler", price: 24, image: "https://images.unsplash.com/photo-1532939163844-547f958e91b4?auto=format&fit=crop&q=80&w=800", capacity: "12-17" },
-  { id: 6, name: "Urbania", price: 35, image: "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&q=80&w=800", capacity: "17+1" },
-  { id: 7, name: "Coach Van", price: 26, image: "https://images.unsplash.com/photo-1570125909232-eb263c188f7e?auto=format&fit=crop&q=80&w=800", capacity: "21+1" },
-  { id: 8, name: "Coach Van AC", price: 32, image: "https://images.unsplash.com/photo-1562620644-65bb470344c4?auto=format&fit=crop&q=80&w=800", capacity: "21+1" },
+  { id: 1, name: " Sedan", price: 13, image: "/cars/dzire-2024-right-front-three-quarter.avif", capacity: "4+1" },
+  { id: 2, name: "Innova", price: 18, image: "/cars/innova-big.jpg", capacity: "6+1" },
+  { id: 3, name: "Innova Crysta", price: 20, image: "/cars/20201124124812_Toyota-Innova-Crysta-2020.avif", capacity: "7+1" },
+  { id: 4, name: "Ertiga", price: 17, image: "/cars/front-left-side-47.avif", capacity: "6+1" },
+  { id: 5, name: "Tempo Traveler", price: 24, image: "/cars/force-traveller-3050.avif", capacity: "12-17" },
+  { id: 6, name: "Urbania", price: 35, image: "/cars/force-urbania.avif", capacity: "17+1" },
+  { id: 7, name: "Coach Van", price: 26, image: "/cars/diesel-bs6-50-seater-bus-803005473-r8503utn.avif", capacity: "21+1" },
+  { id: 8, name: "Coach Van AC", price: 32, image: "/cars/27-seater-bus-hire-jaipur.jpg", capacity: "21+1" },
 ];
 
 const FleetSection = () => {
@@ -53,8 +53,8 @@ const FleetSection = () => {
             >
               {/* Image Area */}
               <div className="relative h-48 overflow-hidden">
-                <img src={car.image} alt={car.name} className="w-full h-full object-cover grayscale-[50%] group-hover:grayscale-0 transition-all duration-700 group-hover:scale-110" />
-                <div className="absolute inset-0 bg-gradient-to-t from-[#0f0f0f] via-transparent to-transparent" />
+                <img src={car.image} alt={car.name} className="w-full h-full object-cover  transition-all duration-700 group-hover:scale-110" />
+                <div className="absolute hidden inset-0 bg-gradient-to-t from-[#0f0f0f] via-transparent to-transparent" />
                 <div className="absolute bottom-4 left-6">
                   <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-yellow-500 bg-black/60 backdrop-blur-md px-3 py-1 rounded-full border border-yellow-500/20">
                     Premium Class

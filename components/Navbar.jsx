@@ -63,7 +63,7 @@ export default function Navbar() {
 
               {/* PREMIUM CONTACT BUTTON */}
               <a
-                href="https://wa.me/916380578937"
+                href="https://wa.me/919626850192"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 py-2 rounded-full 

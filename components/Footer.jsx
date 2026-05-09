@@ -19,10 +19,10 @@ const Footer = () => {
 
   const footerLinks = {
     services: [
-      { name: "Cabs", href: "/cars" },
+      { name: "Cabs", href: "/cabs" },
       { name: "Tour Packages", href: "/packages" },
-      { name: "Airport Transfers", href: "/cars" },
-      { name: "Corporate Booking", href: "/cars" },
+      { name: "Airport Transfers", href: "/cabs" },
+      { name: "Corporate Booking", href: "/cabs" },
     ],
     support: [
       { name: "Contact Us", href: "/contact" },
@@ -58,7 +58,7 @@ const Footer = () => {
                 <div className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center group-hover:border-yellow-500/50 transition-colors">
                   <FaEnvelope size={14} className="text-yellow-500" />
                 </div>
-                <span className="text-sm text-gray-300 font-bold">bookings@valparaiholidays.com</span>
+                <span className="text-sm text-gray-300 font-bold">bookings.com</span>
               </div>
             </div>
 

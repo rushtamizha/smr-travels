@@ -106,7 +106,7 @@ const EnterpriseHero = () => {
 
         <div className="hidden text-right lg:block border-r border-yellow-500/30 pr-4">
             <p className="text-white/40 text-[9px] font-bold uppercase tracking-[0.4em] mb-1">Signature</p>
-            <p className="text-white text-[11px] font-bold uppercase tracking-widest">© 2026 RR TOURS-STAYS</p>
+            <p className="text-white text-[11px] font-bold uppercase tracking-widest">© 2026 SMR TRAVELS</p>
         </div>
       </div>
     </section>

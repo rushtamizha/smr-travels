@@ -19,7 +19,7 @@ import {
 import { BsCash } from "react-icons/bs";
 
 export const companyConfig = {
-  name: "Valparai Mahesh & Travels",
+  name: "SMR TOURS & Travels",
   founderImg: "founder.jpg",
   logo: "logo.jpg",
   contact: {
@@ -175,28 +175,196 @@ export const heroData = [
 
 // data/data.js
 export const tourPackages = [
-  // --- VALPARAI CATEGORY (5 PACKAGES) ---
+  // --- TAMIL NADU (6 PACKAGES) ---
   {
     id: 1,
-    title: "Pollachi Valparai Tour Package",
-    duration: "2 Days 1 Night",
+    title: "Nilgiri Executive Circuit",
+    duration: "Ooty – Coonoor – Kotagiri",
     basePrice: "On Request",
-    image: "https://www.valparaimountterrain.com/wp-content/uploads/2025/08/aerial-view-beautiful-sky-road-top-mountains-with-green-jungle-nan-province-thailand-1024x682.webp",
-    tag: "Quick Escape",
-  },{
+    image: "/packages/nilgris.jpg",
+    tag: "Hill Station",
+  },
+  {
     id: 2,
-    title: "Pollachi Valparai Tour Package",
-    duration: "2 Days 1 Night",
+    title: "Kodaikanal Premium Escape",
+    duration: "Lakefront & Nature Trails",
     basePrice: "On Request",
-    image: "https://www.valparaimountterrain.com/wp-content/uploads/2025/08/aerial-view-beautiful-sky-road-top-mountains-with-green-jungle-nan-province-thailand-1024x682.webp",
-    tag: "Quick Escape",
-  },{
+    image: "/packages/Kodaikanal.webp",
+    tag: "Signature Retreat",
+  },
+  {
     id: 3,
-    title: "Pollachi Valparai Tour Package",
-    duration: "2 Days 1 Night",
+    title: "Rameswaram Spiritual Corridor",
+    duration: "Temple Planning & Coastal Heritage",
     basePrice: "On Request",
-    image: "https://www.valparaimountterrain.com/wp-content/uploads/2025/08/aerial-view-beautiful-sky-road-top-mountains-with-green-jungle-nan-province-thailand-1024x682.webp",
-    tag: "Quick Escape",
+    image: "/packages/Rameswaram.jpg",
+    tag: "Pilgrimage",
+  },
+  {
+    id: 4,
+    title: "Madurai Heritage Immersion",
+    duration: "Cultural Architecture & Landmarks",
+    basePrice: "On Request",
+    image: "/packages/Madurai.jpg",
+    tag: "Cultural Tour",
+  },
+  {
+    id: 5,
+    title: "Chennai – Pondicherry Coastal Route",
+    duration: "UNESCO Monuments & French Districts",
+    basePrice: "On Request",
+    image: "/packages/Mahabalipuram.webp",
+    tag: "Heritage Coastal",
+  },
+  {
+    id: 6,
+    title: "Kanyakumari Southern Tip",
+    duration: "Sunrise & Memorial Access",
+    basePrice: "On Request",
+    image: "/packages/Kanyakumari.jpg",
+    tag: "Southern Landmark",
+  },
+
+  // --- KERALA (7 PACKAGES) ---
+  {
+    id: 7,
+    title: "Munnar Highland Reserve",
+    duration: "Tea Valleys & National Parks",
+    basePrice: "On Request",
+    image: "/packages/munnar.webp",
+    tag: "Highland Tea",
+  },
+  {
+    id: 8,
+    title: "Alleppey Private Houseboat",
+    duration: "Backwater Cruise & Dining",
+    basePrice: "On Request",
+    image: "/packages/alleppey.jpg",
+    tag: "Private Luxury",
+  },
+  {
+    id: 9,
+    title: "Thekkady Wildlife & Spice",
+    duration: "Sanctuary Boating & Plantations",
+    basePrice: "On Request",
+    image: "/packages/thekkady.jpg",
+    tag: "Eco Safari",
+  },
+  {
+    id: 10,
+    title: "Wayanad Forest & Waterfall",
+    duration: "Terrain Exploration & Dams",
+    basePrice: "On Request",
+    image: "/packages/wayanad.jpg",
+    tag: "Nature Circuit",
+  },
+  {
+    id: 11,
+    title: "Kochi Heritage & Trade Route",
+    duration: "Colonial & Maritime History",
+    basePrice: "On Request",
+    image: "/packages/kochi.jpg",
+    tag: "Historical Port",
+  },
+  {
+    id: 12,
+    title: "Kovalam – Varkala Retreat",
+    duration: "Beach Access & Cliffside Leisure",
+    basePrice: "On Request",
+    image: "/packages/kovalam.webp",
+    tag: "Coastal Leisure",
+  },
+
+  // --- KARNATAKA & GOA (6 PACKAGES) ---
+  {
+    id: 13,
+    title: "Coorg Plantation Retreat",
+    duration: "Coffee Estates & Waterfalls",
+    basePrice: "On Request",
+    image: "/packages/coorg.avif",
+    tag: "Coffee Trail",
+  },
+  {
+    id: 14,
+    title: "Mysore Royal Heritage",
+    duration: "Palaces & Illuminated Gardens",
+    basePrice: "On Request",
+    image: "/packages/mysore.webp",
+    tag: "Royal Palace",
+  },
+  {
+    id: 15,
+    title: "Chikmagalur Mountain Exp.",
+    duration: "Peak Viewpoints & Coffee Trails",
+    basePrice: "On Request",
+    image: "/packages/chikmagalur.webp",
+    tag: "Highland Drive",
+  },
+  {
+    id: 16,
+    title: "Hampi UNESCO Circuit",
+    duration: "World Heritage Ruins Exploration",
+    basePrice: "On Request",
+    image: "/packages/Hampi.webp",
+    tag: "Heritage Hub",
+  },
+  {
+    id: 17,
+    title: "Gokarna Coastal Serenity",
+    duration: "Beach Circuit & Private Transfer",
+    basePrice: "On Request",
+    image: "/packages/Gokarna.jpg",
+    tag: "Secluded Beach",
+  },
+  {
+    id: 18,
+    title: "Goa Executive Plan",
+    duration: "North & South Goa Curated Plan",
+    basePrice: "On Request",
+    image: "/packages/Goa.jpg",
+    tag: "Executive Goa",
+  },
+
+  // --- PAN-INDIA (5 PACKAGES) ---
+  {
+    id: 19,
+    title: "Andaman Premium Escape",
+    duration: "Island Transfers & Marine Exp.",
+    basePrice: "On Request",
+    image: "/packages/Andaman.webp",
+    tag: "Island Luxury",
+  },
+  {
+    id: 20,
+    title: "Manali Alpine Retreat",
+    duration: "Solang Valley & Snow Experience",
+    basePrice: "On Request",
+    image: "/packages/Manali.avif",
+    tag: "Alpine Valley",
+  },
+  {
+    id: 21,
+    title: "Kashmir Signature Exp.",
+    duration: "Houseboats & Scenic Meadows",
+    basePrice: "On Request",
+    image: "/packages/Kashmir.webp",
+    tag: "Exotic Kashmir",
+  },
+  {
+    id: 22,
+    title: "Delhi Capital Heritage",
+    duration: "Red Fort & Qutub Minar Axis",
+    basePrice: "On Request",
+    image: "/packages/Delhi.png",
+    tag: "Capital History",
+  },
+  {
+    id: 23,
+    title: "Bangalore Urban Signature",
+    duration: "Garden City & Landmark Culture",
+    basePrice: "On Request",
+    image: "/packages/Garden.jpg",
+    tag: "Urban Garden",
   }
 ];
 
