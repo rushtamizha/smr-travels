@@ -41,7 +41,7 @@ const Footer = () => {
           <div className="lg:col-span-4 space-y-8">
             <div>
               <h2 className="text-2xl font-black tracking-tighter text-white uppercase logo">
-                SMR <span className="text-transparent bg-clip-text bg-gradient-to-b from-[#FFE7A3] to-[#D4AF37] logo pr-2">TRAVELS</span>
+                SMR <span className="text-transparent bg-clip-text bg-gradient-to-b from-[#ffe100] to-[#ffb700] logo pr-2">TRAVELS</span>
               </h2>
               <p className="mt-4 text-gray-100 text-xs leading-relaxed max-w-xs">
                 No.8 North Car Street <br/>

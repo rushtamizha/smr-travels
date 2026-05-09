@@ -41,7 +41,7 @@ export default function Navbar() {
                   src="/logo.jpg"
                   alt="RR Tours Logo" />
               </div>
-              <span className="text-transparent bg-clip-text bg-gradient-to-b from-[#FFE7A3] to-[#D4AF37] logo px-1">
+              <span className="text-transparent bg-clip-text bg-gradient-to-b from-[#ffe100] to-[#ffb700] logo px-1">
                 SMR
               </span>
               <span className=" text-white logo">

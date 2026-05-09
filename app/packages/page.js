@@ -36,7 +36,7 @@ const PackagesPage = () => {
         <div className="max-w-4xl mb-20">
           <h1 className="text-3xl  font-black uppercase tracking-tighter leading-[0.85] text-white mb-2">
             The Complete <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-b from-[#FFE7A3] to-[#D4AF37]">
+            <span className="text-transparent bg-clip-text bg-gradient-to-b from-[#ffe100] to-[#ffb700]">
               Travel Catalog
             </span>
           </h1>
@@ -49,7 +49,7 @@ const PackagesPage = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {tourPackages.map((tour) => (
             <motion.div key={tour.id} 
-                className="group relative bg-[#0f0f0f] rounded-[2.5rem] overflow-hidden border border-white/5 hover:border-yellow-500/30 transition-all duration-500 h-full flex flex-col"
+                className="group relative bg-amber-400/5 rounded-[2.5rem] overflow-hidden border border-white/5 hover:border-yellow-500/30 transition-all duration-500 h-full flex flex-col"
               >
                 <div className="relative overflow-hidden h-52 cursor-pointer" onClick={() => openForm(tour.title)}>
                   <img src={tour.image} alt={tour.title} className="object-cover w-full h-full transition-transform duration-1000 group-hover:scale-110" />

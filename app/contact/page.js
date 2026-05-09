@@ -58,7 +58,7 @@ const ContactPage = () => {
         {/* Header */}
         <div className="max-w-3xl mb-20">
           <h1 className="text-5xl md:text-7xl font-black uppercase tracking-tighter mb-6">
-            Get In <span className="text-transparent bg-clip-text bg-gradient-to-b from-[#FFE7A3] to-[#D4AF37]">Touch</span>
+            Get In <span className="text-transparent bg-clip-text bg-gradient-to-b from-[#ffe100] to-[#ffb700]">Touch</span>
           </h1>
           <p className="text-gray-400 font-medium text-lg">
             Plan your Tamil Nadu expedition with SMR Travels. Our concierge team is ready to assist with custom itineraries and luxury cab bookings.

@@ -48,7 +48,7 @@ const Testimonials = () => {
         {/* Header */}
         <div className="text-start mb-16">
           <h2 className="text-3xl  font-black uppercase tracking-tighter mb-2 text-white">
-            Client <span className="text-transparent bg-clip-text bg-gradient-to-b from-[#FFE7A3] to-[#D4AF37]">Perspectives</span>
+            Client <span className="text-transparent bg-clip-text bg-gradient-to-b from-[#ffe100] to-[#ffb700]">Perspectives</span>
           </h2>
           <p className="text-gray-500 text-xs uppercase tracking-[0.3em] font-bold">Verified Google Reviews</p>
         </div>

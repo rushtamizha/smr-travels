@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const fleetData = [
   { id: 1, name: " Sedan", price: 13, image: "/cars/dzire-2024-right-front-three-quarter.avif", capacity: "4+1" },
-  { id: 2, name: "Innova", price: 18, image: "/cars/innova-big.jpg", capacity: "6+1" },
+  { id: 2, name: "Innova", price: 18, image: "/cars/innova-big.jpg", capacity: "7+1" },
   { id: 3, name: "Innova Crysta", price: 20, image: "/cars/20201124124812_Toyota-Innova-Crysta-2020.avif", capacity: "7+1" },
   { id: 4, name: "Ertiga", price: 17, image: "/cars/front-left-side-47.avif", capacity: "6+1" },
   { id: 5, name: "Tempo Traveler", price: 24, image: "/cars/force-traveller-3050.avif", capacity: "12-17" },
@@ -38,7 +38,7 @@ const FleetSection = () => {
         <div className="mb-16">
           <h2 className="text-3xl  font-black uppercase tracking-tighter mb-4 leading-none">
             Our Premium <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-b from-[#FFE7A3] to-[#D4AF37]">Fleet Collection</span>
+            <span className="text-transparent bg-clip-text bg-gradient-to-b from-[#ffe100] to-[#ffb700]">Fleet Collection</span>
           </h2>
           <div className="h-1 w-20 bg-yellow-500 rounded-full" />
         </div>
@@ -49,7 +49,7 @@ const FleetSection = () => {
             <motion.div 
               key={car.id}
               whileHover={{ y: -10 }}
-              className="group relative bg-[#0f0f0f] border border-white/5 rounded-[2rem] overflow-hidden transition-all duration-500 hover:border-yellow-500/30"
+              className="group relative bg-amber-400/5 border border-white/5 rounded-[2rem] overflow-hidden transition-all duration-500 hover:border-yellow-500/30"
             >
               {/* Image Area */}
               <div className="relative h-48 overflow-hidden">
@@ -69,11 +69,11 @@ const FleetSection = () => {
                 </h3>
                 
                 <div className="flex items-center gap-4 mb-6">
-                   <div className="flex items-center gap-1.5 text-gray-500">
+                   <div className="flex items-center gap-1.5 text-white">
                       <Users size={14} className="text-yellow-600" />
                       <span className="text-[10px] font-bold">{car.capacity}</span>
                    </div>
-                   <div className="flex items-center gap-1.5 text-gray-500">
+                   <div className="flex items-center gap-1.5 text-white">
                       <Gauge size={14} className="text-yellow-600" />
                       <span className="text-[10px] font-bold">Unlimited</span>
                    </div>
@@ -81,8 +81,8 @@ const FleetSection = () => {
 
                 <div className="flex items-center justify-between pt-4 border-t border-white/5">
                   <div>
-                    <p className="text-[9px] font-bold text-gray-500 uppercase tracking-widest mb-1">Per Kilometer</p>
-                    <p className="text-xl font-black text-white">₹{car.price}<span className="text-xs text-gray-500 font-medium">/km</span></p>
+                    <p className="text-[9px] font-bold text-white uppercase tracking-widest mb-1">Per Kilometer</p>
+                    <p className="text-xl font-black text-white">₹{car.price}<span className="text-xs text-white font-medium">/km</span></p>
                   </div>
                   
                   <button 

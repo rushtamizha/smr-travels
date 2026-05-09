@@ -8,7 +8,7 @@ import "swiper/css";
 import "swiper/css/effect-fade";
 
 // Assumed heroData structure from your data.js
-import { heroData, companyConfig } from "@/Data";
+import { heroData, companyConfig, tourPackages } from "@/Data";
 import Link from "next/link";
 
 const EnterpriseHero = () => {
@@ -25,7 +25,7 @@ const EnterpriseHero = () => {
           autoplay={{ delay: 5000, disableOnInteraction: false }}
           className="w-full h-full"
         >
-          {heroData.map((slide) => (
+          {tourPackages.map((slide) => (
             <SwiperSlide key={slide.id}>
               <div className="relative w-full h-full">
                 <motion.img 
@@ -65,7 +65,7 @@ const EnterpriseHero = () => {
 
           {/* Typography: Gold Gradient + High-Weight Bold */}
           <h1 className="text-4xl md:text-6xl font-black text-white leading-[0.85] tracking-tighter uppercase mb-6">
-            <span className="text-transparent bg-clip-text bg-gradient-to-b from-[#FFE7A3] to-[#D4AF37]">
+            <span className="text-transparent bg-clip-text bg-gradient-to-b from-[#ffe100] to-[#ffb700] logo px-4 text-5xl">
               {companyConfig.name.split(' ')[0]}
             </span>
             <br/>

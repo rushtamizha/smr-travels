@@ -8,7 +8,7 @@ const AboutPage = () => {
       <div className="container px-6 mx-auto">
         <div className="max-w-4xl mb-24">
           <h1 className="text-5xl md:text-8xl font-black uppercase tracking-tighter leading-none mb-8">
-            SMR <span className="text-transparent bg-clip-text bg-gradient-to-b from-[#FFE7A3] to-[#D4AF37]">Travels</span>
+            SMR <span className="text-transparent bg-clip-text bg-gradient-to-b from-[#ffe100] to-[#ffb700]">Travels</span>
           </h1>
           <p className="text-xl text-gray-400 font-medium max-w-2xl leading-relaxed">
             Your gateway to the soul of Tamil Nadu. From the misty peaks of the Nilgiris to the sacred shores of Rameswaram, we provide the gold standard in regional travel and cab services.
