@@ -36,13 +36,16 @@ export default function Navbar() {
             
             {/* LOGO SECTION */}
             <div className="text-xl inline-flex gap-2 items-center font-bold tracking-tight cursor-pointer">
-              <div className="relative w-10 h-10">
-                <img className="rounded-full"
-                  src="https://img.freepik.com/premium-vector/logo-taxi-car_427757-45837.jpg?semt=ais_hybrid&w=740&q=80 // Ensure this path is correct"
+              <div className="relative w-10 h-10 border rounded-full ">
+                <img className="rounded-full object-cover"
+                  src="/logo.jpg"
                   alt="RR Tours Logo" />
               </div>
-              <span className="text-transparent bg-clip-text bg-gradient-to-b from-[#FFE7A3] to-[#D4AF37]">
-                SMR TRAVELS
+              <span className="text-transparent bg-clip-text bg-gradient-to-b from-[#FFE7A3] to-[#D4AF37] logo px-1">
+                SMR
+              </span>
+              <span className=" text-white logo">
+                TRAVELS
               </span>
             </div>
 

@@ -40,8 +40,8 @@ const Footer = () => {
           {/* Column 1: Brand & Contact */}
           <div className="lg:col-span-4 space-y-8">
             <div>
-              <h2 className="text-2xl font-black tracking-tighter text-white uppercase">
-                SMR <span className="text-transparent bg-clip-text bg-gradient-to-b from-[#FFE7A3] to-[#D4AF37]">TRAVELS</span>
+              <h2 className="text-2xl font-black tracking-tighter text-white uppercase logo">
+                SMR <span className="text-transparent bg-clip-text bg-gradient-to-b from-[#FFE7A3] to-[#D4AF37] logo pr-2">TRAVELS</span>
               </h2>
               <p className="mt-4 text-gray-100 text-xs leading-relaxed max-w-xs">
                 No.8 North Car Street <br/>
@@ -71,7 +71,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="flex gap-4">
+            <div className="flex gap-4 hidden">
               {[FaFacebookF, FaInstagram, FaXTwitter].map((Icon, idx) => (
                 <Link key={idx} href="#" className="w-10 h-10 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-gray-400 hover:text-black hover:bg-yellow-500 hover:border-yellow-500 transition-all">
                   <Icon size={16} />

@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
 @import "tailwindcss";
 *{
   scrollbar-width: none;
   scroll-behavior: smooth;
+}
+.logo {
+  font-family: "Caveat", cursive;
 }
 :root {
   --background: #ffffff;

@@ -92,9 +92,10 @@ const TourPackages = () => {
                 </div>
 
                 <div className="flex flex-col flex-grow p-6">
-                  <h3 className="mb-6 text-sm font-black uppercase tracking-tight text-white leading-tight group-hover:text-yellow-400 transition-colors">
+                  <h3 className="mb-2 text-sm font-black uppercase tracking-tight text-white leading-tight group-hover:text-yellow-400 transition-colors">
                     {tour.title}
                   </h3>
+                  <p className="text-xs mb-4">{tour.duration}</p>
 
                   <div className="flex items-center justify-between pt-6 mt-auto border-t border-white/5">
                     <div>
