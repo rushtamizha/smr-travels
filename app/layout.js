@@ -73,9 +73,9 @@ export const metadata = {
   creator: "SMR Travels",
   publisher: "SMR Travels",
   formatDetection: {
-    email: false,
-    address: false,
-    telephone: false,
+    email: "smrtravels2@gmail.com",
+    address: "No.8 North Car Street thiruvanaiKovil Trichy",
+    telephone: 919080576365,
   },
   
   // OpenGraph (Facebook/LinkedIn/WhatsApp)
