@@ -34,7 +34,7 @@ const TourPackages = () => {
   const handleWhatsApp = (e) => {
     e.preventDefault();
     const text = `*New Booking Request*%0A*Package:* ${selectedPackage}%0A*Name:* ${formData.name}%0A*Mobile:* ${formData.mobile}%0A*Date:* ${formData.date}%0A*Adults:* ${formData.adults}%0A*Kids:* ${formData.kids}%0A*Message:* ${formData.message}`;
-    window.open(`https://wa.me/91XXXXXXXXXX?text=${text}`, "_blank"); // Replace with your number
+    window.open(`https://wa.me/919080576365?text=${text}`, "_blank"); // Replace with your number
   };
 
   return (

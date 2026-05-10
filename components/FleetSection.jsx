@@ -27,7 +27,7 @@ const FleetSection = () => {
     e.preventDefault();
     const form = e.target;
     const text = `*New Vehicle Booking*%0A*Vehicle:* ${selectedVehicle}%0A*Name:* ${form.name.value}%0A*Date:* ${form.date.value}%0A*Message:* ${form.message.value}`;
-    window.open(`https://wa.me/91XXXXXXXXXX?text=${text}`, "_blank");
+    window.open(`https://wa.me/919080576365?text=${text}`, "_blank");
   };
 
   return (
