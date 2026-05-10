@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import { MessageCircle, Phone } from 'lucide-react';
 
 const ContactButton = () => {
-  const phoneNumber = "919688168638";
+  const phoneNumber = "919080576365";
   const whatsappMessage = "Hi! I'd like to inquire about your services.";
 
   const actions = [
