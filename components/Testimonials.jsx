@@ -11,33 +11,167 @@ import "swiper/css/effect-coverflow";
 
 const testimonials = [
   {
-    id: 1,
-    name: "Arjun Mehta",
-    role: "Business Traveler",
-    text: "The Innova Crysta was spotless and the driver was extremely professional. Best premium car service in the region. Highly recommended for corporate trips.",
-    rating: 5,
-  },
-  {
-    id: 2,
-    name: "Sarah Jenkins",
-    role: "International Tourist",
-    text: "Booking our Valparai trip was seamless. The gold-standard service mentioned on their site is real. The Urbania was perfect for our large group.",
-    rating: 5,
-  },
-  {
-    id: 3,
-    name: "Rohan Das",
-    role: "Family Vacation",
-    text: "Exceptional experience! The per-km pricing is transparent with no hidden costs. The driver knew all the best spots in the Western Ghats.",
-    rating: 5,
-  },
-  {
-    id: 4,
-    name: "Priyanka Nair",
-    role: "Solo Traveler",
-    text: "Safety was my priority and they delivered. Constant communication and a very well-maintained Sedan. Truly a 5-star experience.",
-    rating: 5,
-  },
+                "name": "Sarath K",
+                "profile_picture": "https://lh3.googleusercontent.com/a-/ALV-UjV8mOw2FgQv3Trnnm2GIFbQVtgl1e2_y-aFMmRia3ChPHsfY1kd=s120-c-rp-mo-br100",
+                "time": "2026-06-01T13:14:56.356Z",
+                "rating": 5,
+                "description": "Traveling in your vehicle was comfortable and stress-free for us,Thank you very much for waiting for us for such a long time at so many tourist spots and bringing us along.💚💚👍👍👍👌👌👌👏👏👏",
+                "images": null
+            },
+            {
+                "name": "M.Mahesh Waran",
+                "profile_picture": "https://lh3.googleusercontent.com/a-/ALV-UjXf1QmMJungGPAhLKPFQlJGCXcD_ziR5yPEkRqpEOQWo6ejtObtVQ=s120-c-rp-mo-ba12-br100",
+                "time": "2026-05-27T17:58:22.695Z",
+                "rating": 5,
+                "description": "Good maintainance car, and very polite driver,self drive car also very low price,very experienced driver",
+                "images": null
+            },
+            {
+                "name": "Karna 8800",
+                "profile_picture": "https://lh3.googleusercontent.com/a/ACg8ocLGhKN9yK6b9p74QpMejSdjHoL7C_zjyWEm5nwPDbamJxlftA=s120-c-rp-mo-br100",
+                "time": "2026-05-27T02:59:17.146Z",
+                "rating": 5,
+                "description": "Reasonable price and well maintained car driver is also helpful maintained she is worth full for money...",
+                "images": null
+            },
+            {
+                "name": "karthi keyan",
+                "profile_picture": "https://lh3.googleusercontent.com/a-/ALV-UjVYb-jnWygxJHwWSPrfMNlhu77wvipTHZ-vLwaPs4yopjsXo9yL=s120-c-rp-mo-br100",
+                "time": "2026-05-26T16:39:53.913Z",
+                "rating": 5,
+                "description": "Good service",
+                "images": null
+            },
+            {
+                "name": "Thayu Manavan",
+                "profile_picture": "https://lh3.googleusercontent.com/a/ACg8ocLeXV9y_epjEr9QhlD1fkz1Z7Wi7IfABskstDGEsqIME6-qog=s120-c-rp-mo-br100",
+                "time": "2026-05-26T14:35:57.589Z",
+                "rating": 5,
+                "description": "Good travel",
+                "images": null
+            },
+            {
+                "name": "Rockford Rajesh",
+                "profile_picture": "https://lh3.googleusercontent.com/a-/ALV-UjWRtiDYCvXvElYrTMJGmUSufbKZM7fPBX-wVoUYrTKN5DPu4YhL=s120-c-rp-mo-br100",
+                "time": "2026-05-26T13:55:51.525Z",
+                "rating": 5,
+                "description": "Excellent Guides & Drivers",
+                "images": null
+            },
+            {
+                "name": "Elango",
+                "profile_picture": "https://lh3.googleusercontent.com/a-/ALV-UjWuL2DOCLWmNEmMnfNrhNU39ch4t6ZV1z3vTy3kI18ODwp5oiUo=s120-c-rp-mo-br100",
+                "time": "2026-05-26T13:14:46.479Z",
+                "rating": 5,
+                "description": "Very nice travels and good drivers",
+                "images": null
+            },
+            {
+                "name": "Divakar gayu",
+                "profile_picture": "https://lh3.googleusercontent.com/a-/ALV-UjX4prwYE6btwOdG57YrRA_vMMGEFZjYkurMxeNrYYCAM79iyEs=s120-c-rp-mo-br100",
+                "time": "2026-05-26T12:53:33.916Z",
+                "rating": 5,
+                "description": "Good service 💯",
+                "images": null
+            },
+            {
+                "name": "Manikandan Raina",
+                "profile_picture": "https://lh3.googleusercontent.com/a-/ALV-UjVICIOnrGDFtnBHUlYdNTFCPvEOxO5AXz-NbyUntUGlTEY8SObG=s120-c-rp-mo-br100",
+                "time": "2026-05-26T12:42:21.285Z",
+                "rating": 5,
+                "description": "Smr travel in safe journey and smooth driving and time pickup and traveling mood in happy",
+                "images": [
+                    "www.google.com/local/imagery/report/?cb_client=maps_sv.tactile&image_key=!1e10!2sCIABIhCCcmnruh6spWin4pmZtSOs&fid=0x0:0x6758b2d034c4734f"
+                ]
+            },
+            {
+                "name": "Surendhar S",
+                "profile_picture": "https://lh3.googleusercontent.com/a-/ALV-UjW6TJRnRboxEih0g0Sxb7HKkiFixw5NP97Kju-aRLnZBt26AXCo=s120-c-rp-mo-ba12-br100",
+                "time": "2026-05-26T12:35:06.625Z",
+                "rating": 5,
+                "description": "Good Service and Affordable price. Thank you Rajendran😊",
+                "images": null
+            },
+            {
+                "name": "Simply Rider",
+                "profile_picture": "https://lh3.googleusercontent.com/a/ACg8ocK3M1aBC6HqmdtGt5XXkR6rp3xRd04upUo10oHXAt3-DVkh7J0=s120-c-rp-mo-br100",
+                "time": "2026-05-26T12:25:39.589Z",
+                "rating": 5,
+                "description": "👍👍👍best experience",
+                "images": null
+            },
+            {
+                "name": "S. BALASUBRAMANI",
+                "profile_picture": "https://lh3.googleusercontent.com/a-/ALV-UjXO9PyxXNbD8yCBYM5AzpqfTqrkGgaxE25OlHzSi69LRol8MLcTEg=s120-c-rp-mo-br100",
+                "time": "2026-05-26T12:10:06.624Z",
+                "rating": 5,
+                "description": "Very nice",
+                "images": null
+            },
+            {
+                "name": "Muthu Official",
+                "profile_picture": "https://lh3.googleusercontent.com/a/ACg8ocLyncS1tsZjPpmzVV8W_mLgOkds5y7-mYDZwLi_Shu-qGnLbw=s120-c-rp-mo-br100",
+                "time": "2026-05-26T12:02:00.005Z",
+                "rating": 5,
+                "description": "Good time meing k up",
+                "images": null
+            },
+            {
+                "name": "Vinoth Vino",
+                "profile_picture": "https://lh3.googleusercontent.com/a-/ALV-UjV2dYRbyi4WH2gwdgBpxB3XEdenMo5_sM2g6hRJBphBL5MbEjzh=s120-c-rp-mo-br100",
+                "time": "2026-05-26T11:43:14.275Z",
+                "rating": 5,
+                "description": "Nice drive 😄",
+                "images": null
+            },
+            {
+                "name": "Abdul daheeir",
+                "profile_picture": "https://lh3.googleusercontent.com/a-/ALV-UjXyUptNYG_ROr286PPUh2V1R2UHfgEQq7fQTtcjqo2qn6B6PJSK=s120-c-rp-mo-br100",
+                "time": "2026-05-26T11:20:32.450Z",
+                "rating": 5,
+                "description": "Bmw car 100km only 2,000rs with petrol I was grab this deal with smr travel... You also get this deal and enjoy",
+                "images": null
+            },
+            {
+                "name": "PRAVEEN KUMAR",
+                "profile_picture": "https://lh3.googleusercontent.com/a-/ALV-UjWIKKaB5XGtyGmMkVuwlF0fOxIDnrBHLCtYRx-rwtBPyjMortxC=s120-c-rp-mo-br100",
+                "time": "2026-05-26T11:13:56.802Z",
+                "rating": 5,
+                "description": "Best travels",
+                "images": null
+            },
+            {
+                "name": "Salman Khan",
+                "profile_picture": "https://lh3.googleusercontent.com/a-/ALV-UjWYYIVh1_UdK7P700zHIHR1H8TsDg9ErJfwY-a42Y5D3iUubAjl=s120-c-rp-mo-ba12-br100",
+                "time": "2026-05-26T11:09:37.867Z",
+                "rating": 5,
+                "description": "Gud service…on time cab…neat and clean Vechiles",
+                "images": null
+            },
+            {
+                "name": "Vishnu",
+                "profile_picture": "https://lh3.googleusercontent.com/a-/ALV-UjUC_8H-0yftD0xUXtmrlYm39U0_rv34eWow3xcmvA4EZaB6gkzQrA=s120-c-rp-mo-ba12-br100",
+                "time": "2026-05-26T11:09:34.046Z",
+                "rating": 5,
+                "description": "Excellent service! Punctual and dedicated to work. 💯 #Service #Punctuality #Dedication",
+                "images": null
+            },
+            {
+                "name": "Rajesh Kanna",
+                "profile_picture": "https://lh3.googleusercontent.com/a-/ALV-UjVzR2jqeHF-fMZLq_sSLpw0aXFMXApk9K8dunXv49SH4J0fNW_h=s120-c-rp-mo-ba12-br100",
+                "time": "2026-05-26T10:57:34.157Z",
+                "rating": 5,
+                "description": "Best cab service. Friendly driver and experienced person.",
+                "images": null
+            },
+            {
+                "name": "Ranjith krish",
+                "profile_picture": "https://lh3.googleusercontent.com/a/ACg8ocLbSkznMVeuXlnvqiCcMfr6p_Rc34Qi2FgyQv_bKt7Ry_Cyeg=s120-c-rp-mo-br100",
+                "time": "2026-05-26T10:56:19.544Z",
+                "rating": 5,
+                "description": "I booked family trip and going to kodaikanal. Good experience, good location awareness",
+                "images": null
+            }
 ];
 
 const Testimonials = () => {
@@ -116,7 +250,7 @@ const Testimonials = () => {
 
                 {/* Testimonial Text */}
                 <p className="text-gray-400 text-sm md:text-base leading-relaxed italic mb-8">
-                  "{item.text}"
+                  "{item.description}"
                 </p>
 
                 {/* Author Details */}
@@ -126,7 +260,6 @@ const Testimonials = () => {
                   </div>
                   <div>
                     <h4 className="text-white font-black uppercase text-xs tracking-wider">{item.name}</h4>
-                    <p className="text-yellow-500/60 text-[10px] font-bold uppercase tracking-widest">{item.role}</p>
                   </div>
                 </div>
               </div>

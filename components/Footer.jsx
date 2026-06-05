@@ -121,7 +121,7 @@ const Footer = () => {
               <div className="absolute inset-0  pointer-events-none group-hover:bg-transparent transition-colors z-10" />
               <iframe
                 title="Office Location"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.4407626717502!2d78.70401861132044!3d10.854042157711271!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baaf42c2e41c059%3A0x5346df832bbe5441!2sN%20Car%20St%2C%20Srirangam%2C%20Thiruvanaikoil%2C%20Tiruchirappalli%2C%20Tamil%20Nadu%20620005!5e0!3m2!1sen!2sin!4v1778307193383!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.4426346267683!2d78.703605!3d10.8538994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baaf5717d317e87%3A0x6758b2d034c4734f!2sSMR%20Tour%20%26%20Travels!5e0!3m2!1sen!2sin!4v1780633358672!5m2!1sen!2sin"
                 className="w-full h-full -[0.9] "
                 style={{ border: 0 }}
                 allowFullScreen=""
