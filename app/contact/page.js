@@ -21,15 +21,15 @@ const ContactPage = () => {
     e.preventDefault();
     const text = `*New Inquiry via Website*%0A*Name:* ${formData.name}%0A*Email:* ${formData.email}%0A*Subject:* ${formData.subject}%0A*Message:* ${formData.message}`;
     // Replace with SMR Travels official number
-    window.open(`https://wa.me/91XXXXXXXXXX?text=${text}`, "_blank");
+    window.open(`https://wa.me/919688168638?text=${text}`, "_blank");
   };
 
   const contactDetails = [
     {
       icon: FaPhoneFlip,
       label: "Call for Booking",
-      value: "+91 98765 43210",
-      href: "tel:+919876543210"
+      value: "+919688168638",
+      href: "tel:+919688168638"
     },
     {
       icon: FaEnvelope,
@@ -40,7 +40,7 @@ const ContactPage = () => {
     {
       icon: FaLocationDot,
       label: "Main Office",
-      value: "Valparai, Tamil Nadu, India",
+      value: "thiruvanaikaval, Tamil Nadu, India",
       href: "#"
     },
     {
@@ -87,7 +87,7 @@ const ContactPage = () => {
 
             {/* Quick WhatsApp Button */}
             <a 
-              href="https://wa.me/91XXXXXXXXXX" 
+              href="https://wa.me/919688168638" 
               className="flex items-center justify-center gap-3 w-full py-6 rounded-[2rem] bg-[#25D366] text-black font-black uppercase tracking-widest text-xs hover:scale-[1.02] transition-transform"
             >
               <FaWhatsapp size={20} />
